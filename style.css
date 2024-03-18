@@ -124,6 +124,11 @@ aside .card {
 aside .card img {
     width: 15.1rem;
     height: 8.4rem;
+
+    /*animation*/
+    animation-name: flip;
+    animation-delay: 3s;
+    animation-duration: 2s;
 }
 
 .card .post h3 {
@@ -183,6 +188,11 @@ footer p {
     section aside {
         max-width: 39rem;
         padding: 0;
+    }
+}
 
+@keyframes flip {
+    from {
+        transform: rotateY(180deg);
     }
 }
