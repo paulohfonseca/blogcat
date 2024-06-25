@@ -125,6 +125,8 @@ aside article {
     display: grid;
     grid-template-columns: 15.1rem 1fr;
     gap: 1.6rem;
+
+    transition: 500ms;
 }
 
 article:hover {
